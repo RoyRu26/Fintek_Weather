@@ -1,0 +1,59 @@
+.input-box {
+    height: 20%;
+    width: 95%;
+    padding: 2%;
+    background-color: #f5f4f1;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.city-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box input {
+    width: 70%;
+    height: 40%;
+    padding: 0%;
+    margin-right: 4%;
+    border: none;
+    text-align: center;
+    font-size: large;
+    border-radius: 1vh;
+    background-color: #fff;
+}
+
+.input-box button {
+    width: 12%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1vh;
+    background-color: #00668c;
+}
+
+.input-box button:hover {
+    background-color: #89c8df;
+    cursor: pointer;
+}
+
+.input-box img {
+    height: 90%;
+}
+
+@media (max-width: 1024px) {
+    .input-box {
+            background: linear-gradient(to left, #d4eaf7, #8cbad3);
+    }
+}

@@ -1,0 +1,46 @@
+.header-box {
+    height: 60%;
+    width: 95%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    background: linear-gradient(to right, #d4eaf7, #8cbad3);
+    border-radius: 2vh;
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.header-box h1 {
+    font-size: 2vw;
+    margin: 4%;
+    color: #373737;
+    font-weight: bold;
+}
+
+.header-box h2 {
+    font-size: 1.8vw;
+    margin: 4%;
+    color: #373737;
+    font-weight: lighter;
+}
+
+@media (max-width: 1024px) {
+    .header-box {
+        background: none;
+        background-color: #f5f4f1;
+    }
+
+    .header-box h1 {
+        font-size: 4vw;
+        margin: 1%;
+    }
+
+    .header-box h2 {
+        font-size: 2.2vw;
+        margin: 1%;
+    }
+}

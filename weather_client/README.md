@@ -1,0 +1,1 @@
+To start cliet side simply run the command "npm start"
